@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configuration status="debug" monitorInterval="30">
+<configuration>
 	<appenders>
 		<Console name="Console" target="SYSTEM_OUT">
 			<PatternLayout
@@ -8,7 +8,9 @@
 	</appenders>
 	<loggers>
 		<logger name="com.artemgolubev" level="info">
-			<appender-ref ref="Console" />
 		</logger>
+		<root level="warn">
+			<appender-ref ref="Console" />
+		</root>
 	</loggers>
 </configuration>

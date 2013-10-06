@@ -53,7 +53,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>fully.qualified.MainClass</mainClass>
+							<mainClass>com.artemgolubev.FindPR</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
