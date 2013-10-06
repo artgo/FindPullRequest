@@ -2,7 +2,7 @@ package com.artemgolubev;
 
 import com.lexicalscope.jewel.cli.Option;
 
-public interface CommandLineArgs {
+public interface Parameters {
 	@Option(description="your username", pattern="[A-Za-z0-9\\_\\.-]+", shortName="U")
 	public String getUsername();
 
@@ -13,7 +13,7 @@ public interface CommandLineArgs {
 	public String getAuthor();
 
 	@Option(description="commit to be found", pattern="[a-z0-9]{5,40}", shortName="C")
-	public String getCommit();
+	public String getCommitSHA();
 
 	@Option(description="repository id", pattern="[A-Za-z0-9\\_\\.-]+\\/[A-Za-z0-9\\_\\.-]+", shortName="R")
 	public String getRepositoryId();
