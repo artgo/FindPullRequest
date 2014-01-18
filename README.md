@@ -11,4 +11,4 @@ Run com.artemgolubev.FindPR class. You have to specify the following arguments:
 -A username_of_author_of_commit
 -C commit_id
 
-The code is compile to be run with Java 7
+The code is compiled to be run with Java 7
